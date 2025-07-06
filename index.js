@@ -47,7 +47,7 @@ app.use("/api/auth", require("./routes/authRoute"));
 //   });
 // });
 connectDb();
-console.log('Database connected successfully, starting server...');
+console.log("Database connected successfully, starting server...");
 app.listen(port, () => {
   console.log(`server is running on port ${port}`);
 });
